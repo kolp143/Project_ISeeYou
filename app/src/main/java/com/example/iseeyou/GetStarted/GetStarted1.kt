@@ -10,7 +10,7 @@ class GetStarted1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.getstarted1)
-        //testing
+        //testingss
         var button1 = findViewById<Button>(R.id.button)
         button1.setOnClickListener{
             val intent1 = Intent(this, GetStarted2::class.java)
