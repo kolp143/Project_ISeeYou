@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ISeeYou"
+        tools:targetApi="31">
+        <activity
+            android:name=".Tablayout.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Navigation_drawer_student.Signout.signout"
+            android:exported="false" />
+        <activity
+            android:name=".Navigation_drawer_student.StudentNavigation"
+            android:exported="false"
+            android:label="@string/title_activity_student_navigation"
+            android:theme="@style/Theme.ISeeYou.NoActionBar" />
+        <activity
+            android:name=".Logins.Forgotpassword"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Logins.LoginTeacher"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Logins.LoginParent"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Logins.LoginDefault_Student"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GetStarted.Getstarted4"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GetStarted.Getstarted3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GetStarted.GetStarted2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GetStarted.GetStarted1"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

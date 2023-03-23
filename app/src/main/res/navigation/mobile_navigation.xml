@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/assessment">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.iseeyou.Navigation_drawer_student.Home.home"
+        android:label=""
+        tools:layout="@layout/fragment_student_home" />
+    <fragment
+        android:id="@+id/violations"
+        android:name="com.example.iseeyou.Navigation_drawer_student.Violation.Violations"
+        android:label=""
+        tools:layout="@layout/fragment_violations" />
+    <fragment
+        android:id="@+id/assessment"
+        android:name="com.example.iseeyou.Navigation_drawer_student.Assessment.Assessment"
+        android:label=""
+        tools:layout="@layout/fragment_assessment" />
+    <activity
+        android:id="@+id/loginDefault_Student"
+        android:name="com.example.iseeyou.Logins.LoginDefault_Student"
+        android:label="logindefault_student"
+        tools:layout="@layout/logindefault_student" />
+    <fragment
+        android:id="@+id/tabStudentAnnouncement"
+        android:name="com.example.iseeyou.Tablayout.TabStudentAnnouncement"
+        android:label="fragment_tab_student_announcement"
+        tools:layout="@layout/fragment_tab_student_announcement" />
+    <fragment
+        android:id="@+id/tabStudentLogs"
+        android:name="com.example.iseeyou.Tablayout.TabStudentLogs"
+        android:label="fragment_tab_student_logs"
+        tools:layout="@layout/fragment_tab_student_logs" />
+    <fragment
+        android:id="@+id/tabStudentSchoolEvents"
+        android:name="com.example.iseeyou.Tablayout.TabStudentSchoolEvents"
+        android:label="fragment_tab_student_school_events"
+        tools:layout="@layout/fragment_tab_student_school_events" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.iseeyou.Tablayout.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>
