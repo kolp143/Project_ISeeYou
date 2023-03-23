@@ -9,7 +9,7 @@ import com.example.iseeyou.R
 
 class LoginTeacher : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        super.onCreate(savedInstanceState)//submit
         setContentView(R.layout.login_teacher)
 
         val textView = findViewById<TextView>(R.id.student)
