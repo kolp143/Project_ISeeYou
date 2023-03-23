@@ -2,14 +2,14 @@ package com.example.iseeyou.Logins
 
 import android.content.Intent
 import android.graphics.Paint
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.example.iseeyou.R
 
 class LoginTeacher : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)//submit
+        super.onCreate(savedInstanceState)//submit //ayaw sa
         setContentView(R.layout.login_teacher)
 
         val textView = findViewById<TextView>(R.id.student)
