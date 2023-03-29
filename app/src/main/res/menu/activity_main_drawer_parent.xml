@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeParent"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/studentforParent"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Students" />
+        <item
+            android:id="@+id/parentSchoolAnouncement"
+            android:icon="@drawable/announcement"
+            android:title="School Announcement" />
+    </group>
+
+    <item android:title="@null"/>
+    <item android:title="@null"/>
+    <item android:title="@null"/>
+
+    <item android:title="@null"
+        android:id="@+id/loginParent"
+        app:actionLayout="@layout/signout_design"
+        />
+</menu>

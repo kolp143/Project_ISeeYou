@@ -1,4 +1,4 @@
-package com.example.iseeyou.Navigation_drawer_student.Signout
+package com.example.iseeyou.Signout
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

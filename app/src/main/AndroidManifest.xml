@@ -12,10 +12,12 @@
         android:theme="@style/Theme.ISeeYou"
         tools:targetApi="31">
         <activity
-            android:name=".Tablayout.MainActivity"
-            android:exported="false" />
+            android:name=".Navigation_drawer_parent.ParentNavigation"
+            android:exported="false"
+            android:label="@string/title_activity_parent_navigation"
+            android:theme="@style/Theme.ISeeYou.NoActionBar" />
         <activity
-            android:name=".Navigation_drawer_student.Signout.signout"
+            android:name=".Signout.signout"
             android:exported="false" />
         <activity
             android:name=".Navigation_drawer_student.StudentNavigation"

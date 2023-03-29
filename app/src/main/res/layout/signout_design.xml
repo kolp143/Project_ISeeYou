@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Navigation_drawer_student.Signout.signout">
+    tools:context=".Signout.signout">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn"

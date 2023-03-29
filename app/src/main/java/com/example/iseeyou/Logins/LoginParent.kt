@@ -2,9 +2,11 @@ package com.example.iseeyou.Logins
 
 import android.content.Intent
 import android.graphics.Paint
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import com.example.iseeyou.Navigation_drawer_parent.ParentNavigation
 import com.example.iseeyou.R
 
 class LoginParent : AppCompatActivity() {
@@ -32,6 +34,12 @@ class LoginParent : AppCompatActivity() {
         myTextView4.setOnClickListener {
             val intent1 = Intent(this, Forgotpassword::class.java)
             startActivity(intent1)
+        }
+        //for parent login botton link to its navigation drawer
+        var button1 = findViewById<Button>(R.id.button9)
+        button1.setOnClickListener{
+            val intent3 = Intent(this, ParentNavigation::class.java)
+            startActivity(intent3)
         }
     }
 }
