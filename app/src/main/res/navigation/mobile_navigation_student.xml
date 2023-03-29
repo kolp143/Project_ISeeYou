@@ -3,14 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/nav_home">
+    app:startDestination="@id/studentLogs">
 
 
-    <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.iseeyou.Navigation_drawer_student.Home.home"
-        android:label=""
-        tools:layout="@layout/fragment_student_home" />
     <fragment
         android:id="@+id/violations"
         android:name="com.example.iseeyou.Navigation_drawer_student.Violation.Violations"
@@ -24,6 +19,21 @@
     <activity
         android:id="@+id/loginDefault_Student"
         android:name="com.example.iseeyou.Logins.LoginDefault_Student"
-        android:label="logindefault_student"
+        android:label=""
         tools:layout="@layout/logindefault_student" />
+    <fragment
+        android:id="@+id/studentLogs"
+        android:name="com.example.iseeyou.Navigation_drawer_student.Logs.StudentLogs"
+        android:label=""
+        tools:layout="@layout/fragment_student_logs" />
+    <fragment
+        android:id="@+id/schoolevents"
+        android:name="com.example.iseeyou.Navigation_drawer_student.Schoolevents.Schoolevents"
+        android:label=""
+        tools:layout="@layout/fragment_schoolevents" />
+    <fragment
+        android:id="@+id/studentAnnoucement"
+        android:name="com.example.iseeyou.Navigation_drawer_student.Announcement.StudentAnnoucement"
+        android:label=""
+        tools:layout="@layout/fragment_student_annoucement" />
 </navigation>

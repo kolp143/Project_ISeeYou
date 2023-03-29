@@ -1,4 +1,4 @@
-package com.example.iseeyou.Navigation_drawer_student.Home
+package com.example.iseeyou.Navigation_drawer_student.Announcement
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,24 +8,24 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.iseeyou.R
 
-class home : Fragment() {
+class StudentAnnoucement : Fragment() {
 
     companion object {
-        fun newInstance() = home()
+        fun newInstance() = StudentAnnoucement()
     }
-    private lateinit var viewModel: HomeViewModel
 
+    private lateinit var viewModel: StudentAnnoucementViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_student_home, container, false)
+        return inflater.inflate(R.layout.fragment_student_annoucement, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(StudentAnnoucementViewModel::class.java)
         // TODO: Use the ViewModel
     }
 
