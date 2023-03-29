@@ -3,25 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation2"
-    app:startDestination="@id/homeParent">
-    <fragment
-        android:id="@+id/homeParent"
-        android:name="com.example.iseeyou.Navigation_drawer_parent.Home.HomeParent"
+    app:startDestination="@id/logsParent">
+    <activity
+        android:id="@+id/loginParent"
+        android:name="com.example.iseeyou.Logins.LoginParent"
         android:label=""
-        tools:layout="@layout/fragment_home_parent" />
+        tools:layout="@layout/login_parent" />
     <fragment
-        android:id="@+id/studentforParent"
+        android:id="@+id/logsParent"
+        android:name="com.example.iseeyou.Navigation_drawer_parent.Logs.LogsParent"
+        android:label=""
+        tools:layout="@layout/fragment_logs_parent" />
+    <fragment
+        android:id="@+id/parentSchoolAnouncement"
         android:name="com.example.iseeyou.Navigation_drawer_parent.SchoolAnnouncement.ParentSchoolAnouncement"
         android:label=""
         tools:layout="@layout/fragment_parent_school_anouncement" />
     <fragment
-        android:id="@+id/parentSchoolAnouncement"
+        android:id="@+id/studentforParent"
         android:name="com.example.iseeyou.Navigation_drawer_parent.Students.StudentforParent"
         android:label=""
         tools:layout="@layout/fragment_studentfor_parent" />
-    <activity
-        android:id="@+id/loginParent"
-        android:name="com.example.iseeyou.Logins.LoginParent"
-        android:label="login_parent"
-        tools:layout="@layout/login_parent" />
 </navigation>

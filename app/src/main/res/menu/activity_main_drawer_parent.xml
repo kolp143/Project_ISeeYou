@@ -6,19 +6,21 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/studentLogs"
-            android:icon="@drawable/baseline_home_24"
+            android:id="@+id/logsParent"
+            android:icon="@drawable/logsbooks"
             android:title="Logs" />
         <item
             android:id="@+id/studentforParent"
-            android:icon="@drawable/baseline_person_24"
-            android:title="Announcement" />
+            android:icon="@drawable/announcement"
+            android:title="Students" />
         <item
             android:id="@+id/parentSchoolAnouncement"
             android:icon="@drawable/announcement"
-            android:title="Assessments" />
+            android:title="School Announcement" />
     </group>
 
+    <item android:title="@null"/>
+    <item android:title="@null"/>
     <item android:title="@null"/>
 
     <item android:title="@null"

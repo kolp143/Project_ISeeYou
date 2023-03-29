@@ -15,7 +15,7 @@
         android:id="@+id/assessment"
         android:name="com.example.iseeyou.Navigation_drawer_student.Assessment.Assessment"
         android:label=""
-        tools:layout="@layout/fragment_assessment" />
+        tools:layout="@layout/fragment_assessment_student" />
     <activity
         android:id="@+id/loginDefault_Student"
         android:name="com.example.iseeyou.Logins.LoginDefault_Student"
@@ -30,7 +30,7 @@
         android:id="@+id/schoolevents"
         android:name="com.example.iseeyou.Navigation_drawer_student.Schoolevents.Schoolevents"
         android:label=""
-        tools:layout="@layout/fragment_schoolevents" />
+        tools:layout="@layout/fragment_schoolevents_student" />
     <fragment
         android:id="@+id/studentAnnoucement"
         android:name="com.example.iseeyou.Navigation_drawer_student.Announcement.StudentAnnoucement"

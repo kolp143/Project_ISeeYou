@@ -20,7 +20,7 @@ class Assessment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_assessment, container, false)
+        return inflater.inflate(R.layout.fragment_assessment_student, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
