@@ -30,11 +30,7 @@ class LoginDefault_Student : AppCompatActivity() {
                 val intent1 = Intent(this, LoginTeacher::class.java)
                 startActivity(intent1)
             }
-        val myTextView3 = findViewById<TextView>(R.id.forgot_student)
-        myTextView3.setOnClickListener {
-            val intent1 = Intent(this, Forgotpassword::class.java)
-            startActivity(intent1)
-        }
+
         //for student login botton link to its navigation drawer
         var button1 = findViewById<Button>(R.id.button5)
         button1.setOnClickListener{

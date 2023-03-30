@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.iseeyou.Navigation_drawer_parent.ParentNavigation
+import com.example.iseeyou.ParentRegistration.ParentRegistration
 import com.example.iseeyou.R
 
 class LoginParent : AppCompatActivity() {
@@ -30,9 +31,9 @@ class LoginParent : AppCompatActivity() {
                 val intent2 = Intent(this, LoginTeacher::class.java)
                 startActivity(intent2)
             }
-        val myTextView4 = findViewById<TextView>(R.id.forgot_parent)
+        val myTextView4 = findViewById<TextView>(R.id.registration)
         myTextView4.setOnClickListener {
-            val intent1 = Intent(this, Forgotpassword::class.java)
+            val intent1 = Intent(this, ParentRegistration::class.java)
             startActivity(intent1)
         }
         //for parent login botton link to its navigation drawer
