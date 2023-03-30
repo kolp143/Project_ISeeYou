@@ -19,7 +19,7 @@
             android:title="Assessments" />
         <item
             android:id="@+id/violations"
-            android:icon="@drawable/announcement"
+            android:icon="@drawable/violation"
             android:title="Violations" />
         <item
             android:id="@+id/schoolevents"

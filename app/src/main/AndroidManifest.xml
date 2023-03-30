@@ -12,6 +12,11 @@
         android:theme="@style/Theme.ISeeYou"
         tools:targetApi="31">
         <activity
+            android:name=".Navigation_drawer_teacher.NavigationforTeacher"
+            android:exported="false"
+            android:label="@string/title_activity_navigation_drawerfor_teacher"
+            android:theme="@style/Theme.ISeeYou.NoActionBar" />
+        <activity
             android:name=".Navigation_drawer_parent.ParentNavigation"
             android:exported="false"
             android:label="@string/title_activity_parent_navigation"

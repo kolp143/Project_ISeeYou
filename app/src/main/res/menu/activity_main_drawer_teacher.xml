@@ -6,17 +6,17 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/logsParent"
+            android:id="@+id/classlist"
             android:icon="@drawable/logsbooks"
-            android:title="Logs" />
+            android:title="Classlist" />
         <item
-            android:id="@+id/studentforParent"
-            android:icon="@drawable/baseline_person_24"
-            android:title="Students" />
-        <item
-            android:id="@+id/parentSchoolAnouncement"
+            android:id="@+id/schoolAnnouncement"
             android:icon="@drawable/announcement"
             android:title="School Announcement" />
+        <item
+            android:id="@+id/studentViolation"
+            android:icon="@drawable/violation"
+            android:title="Students Violation" />
     </group>
 
     <item android:title="@null"/>
@@ -24,7 +24,7 @@
     <item android:title="@null"/>
 
     <item android:title="@null"
-        android:id="@+id/loginParent"
+        android:id="@+id/loginTeacher"
         app:actionLayout="@layout/signout_design"
         />
 </menu>

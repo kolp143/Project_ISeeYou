@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/classlist">
+
+    <activity
+        android:id="@+id/loginTeacher"
+        android:name="com.example.iseeyou.Logins.LoginTeacher"
+        android:label=""
+        tools:layout="@layout/login_teacher" />
+    <fragment
+        android:id="@+id/studentViolation"
+        android:name="com.example.iseeyou.Navigation_drawer_teacher.StudentViolations.StudentViolation"
+        android:label=""
+        tools:layout="@layout/fragment_studentviolation_teacher" />
+    <fragment
+        android:id="@+id/classlist"
+        android:name="com.example.iseeyou.Navigation_drawer_teacher.ClassList.Classlist"
+        android:label=""
+        tools:layout="@layout/fragment_classlist_teacher" />
+    <fragment
+        android:id="@+id/schoolAnnouncement"
+        android:name="com.example.iseeyou.Navigation_drawer_teacher.SchoolAnnouncement.SchoolAnnouncement"
+        android:label=""
+        tools:layout="@layout/fragment_schoolannouncement_teacher" />
+</navigation>
