@@ -10,7 +10,7 @@
         android:id="@+id/violations"
         android:name="com.example.iseeyou.Navigation_drawer_student.Violation.Violations"
         android:label=""
-        tools:layout="@layout/fragment_violations" />
+        tools:layout="@layout/fragment_violations_student" />
     <fragment
         android:id="@+id/assessment"
         android:name="com.example.iseeyou.Navigation_drawer_student.Assessment.Assessment"

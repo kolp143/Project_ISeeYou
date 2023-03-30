@@ -31,6 +31,5 @@
 
     <item android:title="@null"
         android:id="@+id/loginDefault_Student"
-        app:actionLayout="@layout/signout_design"
-        />
+        app:actionLayout="@layout/signout_design"/>
 </menu>

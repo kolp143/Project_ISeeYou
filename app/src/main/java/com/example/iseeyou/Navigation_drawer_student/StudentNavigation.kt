@@ -24,8 +24,6 @@ class StudentNavigation : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-
-
         binding = ActivityStudentNavigation2Binding.inflate(layoutInflater)
         setContentView(binding.root)
         //My code start here
