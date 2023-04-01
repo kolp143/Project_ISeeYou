@@ -5,19 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".Navigation_drawer_teacher.ClassList.Classlist">
+    tools:context=".Navigation_drawer_teacher.ClassList.Classlist"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-36dp">
 
     <View
         android:id="@+id/view"
-        android:layout_width="340dp"
-        android:layout_height="472dp"
+        android:layout_width="337dp"
+        android:layout_height="422dp"
         android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.61" />
+        app:layout_constraintVertical_bias="0.88" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="339dp"
+        android:layout_height="46dp"
+        android:background="#73A5B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249" />
 
     <TextView
         android:id="@+id/textView18"
@@ -44,16 +57,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
-
-    <SearchView
-        android:id="@+id/searchView"
-        android:layout_width="339dp"
-        android:layout_height="46dp"
-        android:layout_marginBottom="528dp"
-        android:background="#73A5B5"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView22" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
